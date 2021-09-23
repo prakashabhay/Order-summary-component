@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.6rem;
+}
+
+html{
+    font-size: 16px;
+}
+.container{
+    min-height: 100vh;
+    background-image: url('images/pattern-background-desktop.svg');
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+ display: flex;
+ flex-direction: column;
+ width: 30%;
+ border-radius: 1rem;
+ box-shadow: 1px 1px 2px 2px rgb(0 0 0 / 30%);
+ overflow: hidden;
+}
+
+@media only screen and (max-width:1509px){
+    .content{
+        width: 35%;
+       }
+}
+@media only screen and (max-width:1350px){
+    .content{
+        width: 40%;
+       }
+}
+@media only screen and (max-width:1139px){
+    .content{
+        width: 45%;
+       }
+}
+@media only screen and (max-width:1011px){
+    
+body{
+    font-size: 1.3rem;
+}
+
+}
+
+@media only screen and (max-width:880px){
+    .content{
+        width: 70%;
+       }
+}
+@media only screen and (max-width:600px){
+    .content{
+        width: 90%;
+       }
+}
+
+.image-cont{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+.hero{
+    width: 100%;
+}
+
+.order-details{
+ padding-left: 2rem;
+ padding-right: 2rem ;
+ background-color: white;
+}
+.order-summary{
+    text-align: center;
+}
+.anual-plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: .5rem;
+    padding: 1.6rem;
+}
+
+.music-icon{
+    height: 4rem;
+    width: 4rem;
+    margin-right: 1rem;
+}
+
+.mg-btn{
+    margin-bottom: 3rem;;
+}
+
+.payment-button{
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    outline: none;
+    background: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 1.6rem;
+    border-color: hsl(245, 75%, 52%);
+    box-shadow: 0px 15px 16px 0px hsl(245deg 75% 52% / 28%);
+}
+
+.payment{
+    text-align: center;
+}
+p,span{
+    font-weight: 300;
+}
+
+.change-order{
+    color: hsl(245, 75%, 52%);
+    display: inline-block;
+    border-bottom: 1px solid;
+}
+
+.annual-plan-text span{
+    display: block;
+}
+.annual-plan-header{
+    font-weight: 700;
+}
+.secondary-text-color{
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel-btn{
+    font-weight: 700;
+}
+
+.pricing-cont{
+    display: flex;
+}
+
